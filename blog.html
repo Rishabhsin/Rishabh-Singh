@@ -9,16 +9,16 @@
     <!-- <link rel="script" href="script.js" /> -->
 
     <style>
-      body {
+      /* body {
         font-family: Arial, sans-serif;
         background-color: #f4f4f4;
         margin: 0;
         padding: 0;
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         height: 100vh;
-      }
+      } */
+      /* display: flex; */
 
       .card {
         max-width: 330px;
@@ -71,6 +71,34 @@
         max-height: 110px;
 
       }
+
+
+
+      @media only screen and (max-width: 600px) {
+        .card {
+        max-width: 150px;
+        max-height: 490px;
+      }
+
+      .card img {
+        height: 90px;
+      }
+
+      .card-title {
+        font-size: 0.5em;
+      }
+
+      .card-description {
+        display:none;
+      }
+
+      .card-link {
+        padding: 1px;
+        font-size: 0.7em;
+      }
+
+}
+
     </style>
   </head>
   <body>
